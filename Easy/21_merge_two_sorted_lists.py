@@ -12,7 +12,7 @@ class ListNode:
 def merge_two_lists(list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
     dummy = ListNode()
     current = dummy
-    print(f'Dymmy is: {dummy}')
+    
     while list1 and list2:
         if list1.val <= list2.val:
             current.next = list1
